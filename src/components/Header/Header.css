@@ -1,0 +1,45 @@
+.header {
+  background: linear-gradient(to right, #6A9113, #141517);
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  color: white;
+  font-style: italic;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.navbar-list {
+  display: flex;
+  flex-flow: row wrap;
+  color: white;
+  font-size: 2rem;
+  font-style: bold;
+  text-transform: uppercase;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item {
+  margin-right: 2rem;
+  transition: color .5s ease;
+}
+
+.navbar-item:last-child {
+  margin: 0;
+}
+
+.navbar-item:hover,
+.navbar-item:focus {
+  color: #678D14;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.post {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.title {
+  margin: 0;
+  display: inline;
+  font-size: 3rem;
+  color: #678D14;
+  transition: color .5s ease;
+}
+
+.title:hover,
+.title:focus {
+  color: #3C4F15;
+}
+
+.excerpt {
+  font-size: 1.8rem;
+  line-height: 1.7;
+}
